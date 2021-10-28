@@ -17,13 +17,13 @@
   min-height: 300px; }
 
 .footer {
-  background-color: #530f44;
+  background-color: #0070c0;
   color: #fff;
   margin: 0px auto;
   padding: 20px 0px; }
 
 .jumbotron {
-  background-image: url("../img/HeaderSGP.png");
+  background-image: url("../img/Headerbv.png");
   background-size: cover;
   min-height: 300px;
   margin: 0px auto;
@@ -52,16 +52,17 @@ body {
   background: #530f44; }
   .carousel .carousel-item {
     height: 300px; }
+
     .carousel .carousel-item img {
       position: absolute;
       top: 0;
       left: 0;
       min-height: 300px; }
 
+
 .carousel-caption {
-  transform: translateY(-50%);
-  bottom: 0;
-  top: 50%; }
+  position: absolute;
+  top:-25px; }
 
 #carouselButton {
   right: 0px;
@@ -69,15 +70,16 @@ body {
   bottom: 0px;
   z-index: 1; }
 
-.modal-header {
-  color: floralwhite;
-  background-color: #512DA8; }
-  .modal-header button {
-    color: floralwhite; }
 
-.modal-body {
-  background-color: #D1C4E9; }
+  .myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 30px;
+  }
 
+  
+  
 
 
 
